@@ -14,7 +14,6 @@ import { useForm } from "react-hook-form";
 import { onCompleteUserRegistration } from "@/actions/auth";
 
 export const useSignUpForm = () => {
-  //   const { toast } = useToast();
   const [loading, setLoading] = useState<boolean>(false);
   const { signUp, isLoaded, setActive } = useSignUp();
   const router = useRouter();
